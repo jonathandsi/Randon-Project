@@ -1,0 +1,108 @@
+
+
+
+* {
+    margin:0;
+    padding:0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto"
+}
+
+body {
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight:700;
+    font-size: 55px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 85px;
+}
+
+h3{
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 38px;
+    text-align: center;
+    
+}
+
+input{
+    background-color: darkgray;
+    border: 1px solid;
+    border-radius: 14px;
+    height: 44px;
+    width: 242px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    opacity: 0.7; 
+}
+
+.input-min{
+    margin-right: 60px;
+}
+
+button {
+    background: #aec346;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+    border-radius: 10px;
+    width: 242px;
+    height: 42px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 30px;
+    border: none;
+    cursor:pointer;
+
+}
+button:hover{
+    opacity: 0.9;
+
+}
+button:active{
+    opacity: 0.8;
+}
+
+@media screen and (max-width:547px) {
+    .container{
+        margin-left: 152px;
+        
+    }
+
+    .input-min{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .container{
+        margin-left: 84px;
+    
+    
+    }
+}
+
+@media screen and (max-width:390px) {
+    .container{
+        margin-left: 74px;
+    
+    
+    }
+}
